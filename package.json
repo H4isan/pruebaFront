@@ -1,0 +1,32 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "prueba harlen para almundo ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H4isan/pruebaFront.git"
+  },
+  "keywords": [
+    "RestFull"
+  ],
+  "author": "Harlen giraldo Eichgost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H4isan/pruebaFront/issues"
+  },
+  "homepage": "https://github.com/H4isan/pruebaFront#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.14",
+    "request": "^2.85.0"
+  }
+}
